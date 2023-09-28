@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'M PLUS 1', sans-serif;
+}
+header{
+    display:grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+
+}
+
+a.logo{
+    height: 12px;
+    width: 150px;
+    color: white;
+    
+}
+
+header a{
+    color: white;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+header nav.center{
+    text-align: center;
+    
+}
+
+
+
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    
+}
+section .content{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows: min-content min-content auto min-content min-content;
+}
+
+section .terms {
+    padding-top: 40px;
+    font-size: 12px;
+    color: white;
+}
+
+section h1{
+    font-size: 40px;
+}
+
+
+
+section .buttons a{
+    color: white;
+    display: block;
+    background-color:  rgba(0,0,0,0.8);
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section .buttons{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .buttons-accessories a{
+    color: white;
+    display: block;
+    background-color:  rgba(0,0,0,0.8);
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+section .buttons-accessories{
+    
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .content-accessories{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows:  auto min-content min-content ;
+}
+section .buttons a:first-child{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
+
+nav.footer{
+
+    display: grid;
+    padding-top: 50px;
+    
+}
+
+
+nav.footer a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display:contents;
+    padding-right: 10px;
+    font-weight: 500;
+
+}
+
+section .content-powerwall{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows: auto min-content;
+}
+
+section .buttons-powerwall a{
+    color: white;
+    display: block;
+    background-color:  rgba(0,0,0,0.8);
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section .buttons-powerwall{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .buttons-powerwall a:first-child{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+section .content-solarroof{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows: min-content auto min-content;
+}
+
+section .buttons-solarroof a{
+    color: white;
+    display: block;
+    background-color:  rgba(0,0,0,0.8);
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section .buttons-solarroof{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .buttons-solarroof a:first-child{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+section .content-solarpanel{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows: min-content auto min-content;
+}
+
+section .buttons-solarpanel a{
+    color: white;
+    display: block;
+    background-color:  rgba(0,0,0,0.8);
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section .buttons-solarpanel{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .buttons-solarpanel a:first-child{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+/*experience Tesla*/
+
+section .buttons-experiencetesla a{
+    color: white;
+    display: block;
+    border: 2px solid;
+    color: inherit;
+    padding: 12px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+section .buttons-experiencetesla{
+    
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    
+}
+section .content-experiencetesla{
+    width: 100%;
+    color: white;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    display: grid;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(to top, rgba(255,255,255,0), rgba(0,0,0,0.4));
+    grid-template-rows: min-content auto  min-content ;
+}
+
+video.background-video{
+    position:absolute;
+    width:max-content;
+    z-index: -1;
+    width: 100%;
+}
